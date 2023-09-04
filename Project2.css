@@ -1,0 +1,101 @@
+html {
+    scroll-behavior: smooth;
+}
+  
+header {
+   
+    padding: 20px 0;
+    font-family: cursive;
+}
+
+
+header h1 {
+    font-weight: 400;
+    margin: 0;
+}
+
+header .row {
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+  
+header p {
+    padding: 0 20px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+header p a {
+    color: #000000;
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url('Tech.jpg');
+    background-size: cover;
+    color: #ffffff;
+    height: 700px;
+    text-shadow: 2px 2px 2px #000000;
+    font-family: cursive;
+}
+
+.jumbotron h2 {
+    font-size: 50px;
+    color: antiquewhite;
+}
+
+.jumbotron p {
+    font-size: 35px;
+    color: antiquewhite;
+}
+
+section .row img {
+    margin: 0 0 30px;
+    width: 100%;
+}
+
+footer {
+    font-size: 15px;
+    padding: 20px 0;
+    font-weight: 700;
+}
+
+footer .col-sm-8 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li img {
+    width: 32px;
+    height: 32px;
+}
+
+body {
+    background-image: url('#');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    /* ruleset for 320px - 480px */
+  }
+
+  @media only screen and (min-resolution: 300dpi) {
+    /* CSS for high resolution screens */
+}
+
+@media only screen and (min-width: 480px), (orientation: landscape) {
+    /* CSS ruleset */
+}
